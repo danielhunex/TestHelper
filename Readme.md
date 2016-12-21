@@ -1,2 +1,2 @@
-This is a very lightweight test helper to automate creation of mocks of depedencies for unit tests. 
-This library works for unit tests that use Moq and target classes that use constructor injection of depedencies
+Gtr (GoodToRun) s a very lightweight test helper to automate creation of mocks of depedencies for unit tests. 
+This library works for unit tests that use Moq, NUnit and target (classes under test) classes that use constructor injection of depedencies
