@@ -10,8 +10,10 @@ namespace Gtr.Test.Unit
     public class TestFor<T> where T : class
     {
         private ConcurrentDictionary<Type, Mock> _mocks = new ConcurrentDictionary<Type, Mock>();
+
         private T _target;
 
+// this is the class under test
         public virtual T Target
         {
             get
